@@ -1,0 +1,3 @@
+   {this.props.items.map(item=><li key={item.id}>{item.body}</li>)}
+
+   {this.props.items.map(item=><li key={item.id}>{item.contents}</li>)}
