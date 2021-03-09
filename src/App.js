@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Consultants from './Consultants'
+import InputForm from './InputForm'
 import './App.css';
 
 class App extends Component {
@@ -8,7 +8,7 @@ class App extends Component {
     return (
 
     <header className="App-header">
-        <Consultants/>
+        <InputForm/> 
      </header>
         
     );
